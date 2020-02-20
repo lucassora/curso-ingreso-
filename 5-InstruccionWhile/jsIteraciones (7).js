@@ -1,12 +1,19 @@
 function mostrar()
 {
+	var numero =0
+	var cantidaddenumero =0
+	var promedio;
+	var continuar="S";
+	while(continuar =="S")
+	{ 
+	  numero+= parseInt (prompt("ingrese un numero "))
+		
+	  cantidaddenumero+=1
 
-	var contador=0;
-	var acumulador=0;
-	var respuesta='si';
+	  continuar =prompt("desea continuar?? S / N" );
 
+	}
 
-document.getElementById('suma').value=acumulador;
-document.getElementById('promedio').value=acumulador/contador;
-
-}//FIN DE LA FUNCIÓN
+	promedio = numero/cantidaddenumero
+	alert ("la suma acumulada es "+ numero + " y el promedio es "+ promedio )
+}//FIN DE LA FUNCIÓN  //      ToLowerCase()    ToUpperCase()

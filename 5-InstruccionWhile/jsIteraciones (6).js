@@ -1,12 +1,16 @@
 function mostrar()
 {
+var numero =0
+var cantidaddenumero =0
+var promedio
+while(cantidaddenumero<5){ 
+  numero+= parseInt (prompt("ingrese un numero "))
+	
+  cantidaddenumero+=1}
+promedio = numero/cantidaddenumero
+alert ("la suma acumulada es "+ numero + " y el promedio es "+ promedio )
 
-	var contador=0;
-	var acumulador=0;
 
 
-
-document.getElementById('suma').value=acumulador;
-document.getElementById('promedio').value=acumulador/5;
 
 }//FIN DE LA FUNCIÓN
